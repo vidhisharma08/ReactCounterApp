@@ -1,0 +1,35 @@
+.footer {
+    background-color: #269cca;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: 20px;
+    position:fixed;
+    left:0;
+    bottom:0;
+    width:100%;
+  }
+  
+  .footer-content p {
+    margin: 5px 0;
+  }
+  
+  .footer-content a {
+    color: #2d08b4;
+    text-decoration: none;
+    margin: 0 5px;
+  }
+  
+  .footer-content a:hover {
+    text-decoration: underline;
+  }
+  
+  .social-links {
+    margin-top: 10px;
+  }
+  
+  .social-links a {
+    margin: 0 10px;
+    font-size: 16px;
+  }
+  
