@@ -6,6 +6,7 @@ import './App.css';
 import Home from './components/Home'
 // import Footer from './components/Footer';
 import Car from './components/Car';
+import Ax from './API/ax';
 import Counter from './components/Counter';
 function App() {
   // var a=8;
@@ -73,10 +74,14 @@ function App() {
     // <Car></Car>
     // </>
 
+    // <>
+    // {/* <Home car ="maruti"/> */}
+    // {/*<Home car = {carInfo} bike = {arr}/>*/}
+    // <Counter></Counter> 
+    // </>
+
     <>
-    {/* <Home car ="maruti"/> */}
-    {/*<Home car = {carInfo} bike = {arr}/>*/}
-    <Counter></Counter> 
+    <Ax></Ax>
     </>
     
   );
